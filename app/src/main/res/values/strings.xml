@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Super Music</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_play">Player</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_song_list">SongListActivity</string>
+    <string name="key_upload_over_wifi">key_theme</string>
+    <string name="summary_upload_over_wifi">select app theme</string>
+    <string name="key_theme">key_theme</string>
+    <string name="summary_theme">select app theme</string>
+    <string name="title_theme">App theme</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+
+
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Light background</item>
+        <item>Dark background</item>
+        <item>Random</item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

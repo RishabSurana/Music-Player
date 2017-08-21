@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingTop="8dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:hapticFeedbackEnabled="true"
+    android:paddingBottom="8dp"
+    android:paddingRight="12dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:text="title will be little long"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sec title"
+        android:textSize="16sp"
+        android:layout_below="@+id/tvTitle"
+        android:id="@+id/tvSec"
+        />
+
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+
+        android:src="@drawable/ic_play_circle_white"
+        android:id="@+id/ivPlayPause"
+        android:layout_alignTop="@+id/tvTitle"
+        android:layout_alignBottom="@+id/tvSec"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvSec"
+        android:layout_below="@+id/tvTitle"
+        android:src="@drawable/ic_clock_white"
+        android:id="@+id/ivClock"
+        android:layout_marginRight="-10dp"
+        android:layout_alignBottom="@+id/tvSec"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTime"
+        android:layout_below="@+id/tvTitle"
+        android:text="05:34"
+        android:layout_toRightOf="@+id/ivClock"/>
+
+</RelativeLayout>

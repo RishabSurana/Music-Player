@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="randomtechnologies.supermusic.MainPlayActivity$PlaceholderFragment">
+
+    <ImageView
+        android:background="@drawable/black_outline"
+        android:id="@+id/ivArt"
+        android:layout_below="@+id/section_label"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Song display name"
+        android:textColor="#fff"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="23sp"/>
+
+</LinearLayout>
